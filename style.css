@@ -1,0 +1,21 @@
+#main {
+    margin: 0;
+    width: 960px;
+    height: 960px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px 5px;
+}
+
+.square {
+    margin: 0;
+    background-color: darkviolet;
+}
+
+.square-hover {
+    background-color: orangered;
+}
